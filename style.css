@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 header {
@@ -25,3 +26,60 @@ code {
   margin: 9px;
   border-radius: 6px;
 }
+=======
+/* Setup */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4d4e53;
+}
+li {
+    list-style: none;
+}
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #4d4e53;
+}
+/* Setup */
+
+/* Side Bar */
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30rem;
+    min-width: 29rem;
+    height: 100%;
+    border-right: .1rem solid rgba(0, 22, 22, 0.4);
+}
+#navbar header {
+    color: black;
+    margin: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+#navbar ul {
+    overflow: auto;
+    height: 88%;
+}
+#navbar li {
+    border-top: .1rem solid black;
+    width: 100%;
+}
+.nav-link{
+    display: block;
+    cursor: pointer;
+    padding: 1rem 3rem;
+}
+/* Side Bar */
+>>>>>>> 08b390370427788f4616aa075100383f6396dd9d
