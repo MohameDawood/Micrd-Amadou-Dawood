@@ -1,33 +1,4 @@
-<<<<<<< HEAD
 
-
-header {
-  color: black;
-  margin: 12px;
-  text-align: center;
-  font-size: 1.8em;
-}
-
-#main-doc header {
-  text-align: left;
-  margin: 0px;
-}
-
-
-code {
-  display: block;
-  text-align: left;
-  white-space: pre;
-  position: relative;
-  word-break: normal;
-  line-height: 2;
-  background-color: #f7f7f7;
-  padding: 13px;
-  margin: 9px;
-  border-radius: 6px;
-}
-=======
-/* Setup */
 *{
     margin: 0;
     padding: 0;
@@ -82,4 +53,31 @@ a:visited{
     padding: 1rem 3rem;
 }
 /* Side Bar */
->>>>>>> 08b390370427788f4616aa075100383f6396dd9d
+
+header {
+  color: black;
+  margin: 12px;
+  text-align: center;
+  font-size: 1.8em;
+}
+#main-doc{
+    margin-left: 300px;
+}
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 13px;
+  margin: 9px;
+  border-radius: 6px;
+}
