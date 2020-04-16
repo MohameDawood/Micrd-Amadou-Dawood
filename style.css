@@ -54,20 +54,28 @@ a:visited{
 }
 /* Side Bar */
 
-header {
-  color: black;
-  margin: 12px;
-  text-align: center;
-  font-size: 1.8em;
-}
+/*Main Doc*/
 #main-doc{
-    margin-left: 300px;
+    position: absolute;
+    padding: 2rem;
+    margin-left: 30rem;
+    font-size: 1.4rem;
 }
 #main-doc header {
-  text-align: left;
-  margin: 0px;
+    text-align: left;
+    margin: 0px;
+    color: black;
+    margin: 12px;
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
 }
+p {
+    color: #4d4e53;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1.6rem;
 
+}
 
 code {
   display: block;
@@ -81,3 +89,18 @@ code {
   margin: 9px;
   border-radius: 6px;
 }
+#main-doc ul {
+    padding-left: 8rem;
+}
+#main-doc li {
+    list-style: disc;
+}
+#main-doc a:link {
+    color: blue;
+    text-decoration: underline;
+}
+#main-doc a:visited {
+    color: rgb(226, 45, 211);
+    text-decoration: underline;
+}
+/*Main Doc*/
